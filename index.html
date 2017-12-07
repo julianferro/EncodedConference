@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Encoded conference</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|PT+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+	<section class="portada">
+		<header class="header">
+			<figure>
+				<img src="images/logo-para web.png" alt="logo-encoded" width="186" height="100"/>
+			</figure>
+			<nav>
+				<ul>
+					<li class="item"><a href="#" class="active">Home</a></li>
+					<li class="item"><a href="#">Speakers</a></li>
+					<li class="item"><a href="#">Worshops</a></li>
+					<li class="item button"><a href="#">Get tickets</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="contenedor">
+			<h3 class="categorias">Worshops - Talks - Waterfront Party</h3>
+			<h1 class="titulo">ENCODED</h1>
+			<h1 class="titulo">CONFERENCE.</h1> 
+			<h2 class="fecha">May 10<span class="thstyle">TH</span> - 11<span class="thstyle">TH</span> 2018</h2>
+		</div>
+		<div class="planeta"></div>
+		<div class="nave-cont">
+			<img src="images/nave-01.png" alt="nave" class="nave">
+			<img src="images/fuego-01.png" alt="fuego" class="fuego">
+		</div>
+	</section>
+	<section class="video">
+		<video data-src="unity-reel.mp4" class="videoreel" autoplay muted loop="" alt="video reel" class="b-lazy"></video>
+		<h3 class="descrip">
+			<span class="tag">an event for</span><br>
+			DESIGNERS,<br>
+			WEB DEVELOPERS <br>	
+			AND DIGITAL DREAMERS
+		</h3>
+	</section>
+	<section class="speakers">
+		<h2 class="speakers-title">SPEAKERS</h2>
+		<div class="imagen-cont" id="contenedor">
+			<img data-src="images/mark-01.jpg" alt="MarkZuckerberg" width="400" height="500" id="imagen" class="b-lazy">
+			<h4 class="nombre" id="nombre">Mark Zuckerberg</h4>
+			<p class="company" id="company">Facebook</p>
+		</div>
+		<div class="imagen-cont2" id="contenedor2">
+			<img data-src="images/tim-01.jpg" alt="MarkZuckerberg" width="500" height="400" id="imagen2" class="b-lazy2">
+			<h4 class="nombre2" id="nombre2">Tim Cook</h4>
+			<p class="company2" id="company2">Apple</p>
+		</div>
+		<div class="imagen-cont3" id="contenedor3">
+			<img data-src="images/elon-01.jpg" alt="MarkZuckerberg" width="500" height="500" id="imagen3" class="b-lazy3">
+			<h4 class="nombre3" id="nombre3">Elon Musk</h4>
+			<p class="company3" id="company3">SpaceX, Tesla </p>
+		</div>
+	
+	</section>
+
+	<section class="moments">
+			<img data-src="images/stage.jpg" alt="Escenario"
+			class="stageimg">
+			<div class="moments-text">
+				<h4 class="moments-text-title">Memorable moments from Encoded'17</h4>
+				<p class="moments-text-p">This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun. Drag photos to explore.</p>
+				<a href="#" class="boton">SEE ALL PHOTOS</a>
+			</div>
+
+	</section>
+
+	<section class="workshops">
+		<h2 class="work-title" >WORKSHOPS</h2>
+		<div class="work-cont">
+			<div class="workdiv">
+				<img data-src="images/work1.jpg
+				" alt="app workshops" class="b-lazy">
+				<h4 class="titlework">App design</h4>
+				<p class="descwork">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere adipisci undeut.</p>
+			</div>
+			<div class="workdiv">
+				<img data-src="images/work2.jpg
+				" alt="app workshops" class="b-lazy">
+				<h4 class="titlework">Web design</h4>
+				<p class="descwork">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere adipisci undeut.adipisicing elit. Quia facere adipisci undeut</p>
+			</div>
+			<div class="workdiv">
+				<img data-src="images/work3.jpg
+				" alt="app workshops" class="b-lazy">
+				<h4 class="titlework">Character design</h4>
+				<p class="descwork">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere adipisci undeut.adipisicing elit. Quia facere adipisci undeut.</p>
+			</div>
+
+			<div class="workdiv">
+				<img data-src="images/work4.jpg
+				" alt="app workshops" class="b-lazy">
+				<h4 class="titlework">Music for video games</h4>
+				<p class="descwork">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere adipisci undeut.</p>
+			</div>
+			<div class="workdiv">
+				<img data-src="images/work5.jpg
+				" alt="app workshops" class="b-lazy">
+				<h4 class="titlework">3D whit Blender</h4>
+				<p class="descwork">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere adipisci undeut.adipisicing elit. Quia facere adipisci undeut.</p>
+			</div>
+			<div class="workdiv">
+				<img data-src="images/work6.jpg
+				" alt="app workshops" class="b-lazy">
+				<h4 class="titlework">Level design</h4>
+				<p class="descwork">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere adipisci undeut.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>LAZY FOOTER</p>
+	</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+<script>
+	var bLazy = new Blazy({
+	    selector: 'img, video'
+	});
+
+	var $contenedor = document.getElementById('contenedor');
+	var $imagen = document.getElementById('imagen');
+	let $nombre = document.getElementById('nombre');
+	let $company = document.getElementById('company');
+
+	var $contenedor2 = document.getElementById('contenedor2');
+	var $imagen2 = document.getElementById('imagen2');
+	let $nombre2 = document.getElementById('nombre2');
+	let $company2 = document.getElementById('company2');
+
+	var $contenedor3 = document.getElementById('contenedor3');
+	var $imagen3 = document.getElementById('imagen3');
+	let $nombre3 = document.getElementById('nombre3');
+	let $company3 = document.getElementById('company3');
+
+	
+	function listener(){
+		if ($imagen.classList.contains('b-loaded')) {
+    	console.log('golazo');
+    	$contenedor.classList.add('b-loaded');
+    	$nombre.classList.add('b-loaded');
+    	$company.classList.add('b-loaded');
+    	clearInterval(intervalo);
+		}
+	}
+	function listenerr(){
+		if ($imagen2.classList.contains('b-loaded')) {
+    	console.log('golazo');
+    	$contenedor2.classList.add('b-loaded');
+    	$nombre2.classList.add('b-loaded');
+    	$company2.classList.add('b-loaded');
+    	clearInterval(intervalo2);
+		}
+	}
+	function listenerrr(){
+		if ($imagen3.classList.contains('b-loaded')) {
+    	console.log('golazo');
+    	$contenedor3.classList.add('b-loaded');
+    	$nombre3.classList.add('b-loaded');
+    	$company3.classList.add('b-loaded');
+    	clearInterval(intervalo3);
+		}
+	}
+
+	var intervalo = setInterval('listener()',300);
+	var intervalo2 = setInterval('listenerr()',300);
+	var intervalo3 = setInterval('listenerrr()',300);
+	
+
+</script>
+</body>
+
+</html>
